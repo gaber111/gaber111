@@ -1,14 +1,14 @@
 <!-- ============================================================
   Profile README  |  gaber111
   Repo name must be exactly:  gaber111   (Public, with README.md)
-  Upload this README.md together with the /assets folder.
+  Files header.svg, dev-desk.svg, dashboard.svg, tools.svg sit next to this README.md (repo root).
   Search for "TODO" and fix repo names / demo links before publishing.
 ============================================================= -->
 
 <div align="center">
 
 <a href="https://github.com/gaber111">
-  <img src="assets/header.svg" width="100%" alt="Ahmed Gaber - Web Developer and Founder of a Marketing Agency" />
+  <img src="header.svg" width="100%" alt="Ahmed Gaber - Web Developer and Founder of a Marketing Agency" />
 </a>
 
 <br/>
@@ -56,7 +56,7 @@
 </td>
 <td width="40%" align="center" valign="middle">
 
-<img src="assets/dev-desk.svg" width="100%" alt="Illustration of a developer working at a desk with code, a chart and an interface on three screens" />
+<img src="dev-desk.svg" width="100%" alt="Illustration of a developer working at a desk with code, a chart and an interface on three screens" />
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ $ status
 
 <div align="center">
 
-<img src="assets/tools.svg" width="720" alt="Bootstrap, JavaScript, Visual Studio, Notion, Figma, C#, C, HTML5, CSS3, Python, .NET, Node.js, PHP, PowerShell" />
+<img src="tools.svg" width="720" alt="Bootstrap, JavaScript, Visual Studio, Notion, Figma, C#, C, HTML5, CSS3, Python, .NET, Node.js, PHP, PowerShell" />
 
 </div>
 
@@ -101,7 +101,7 @@ $ status
 
 <div align="center">
 
-<img src="assets/dashboard.svg" width="100%" alt="Control panel with a live status board, a build log and an orbit of focus areas around the name AG" />
+<img src="dashboard.svg" width="100%" alt="Control panel with a live status board, a build log and an orbit of focus areas around the name AG" />
 
 </div>
 
@@ -192,12 +192,12 @@ $ status
 
 ```mermaid
 flowchart LR
-    A(["💡 Client idea"]) --> B["📝 Plan and wireframe"]
+    A(["💡 Idea"]) --> B["📝 Plan"]
     B --> C["⚙️ Build"]
-    C --> D{"🔍 Test and review"}
-    D -->|Needs changes| C
-    D -->|Approved| E(["🚀 Launch"])
-    E --> F["📈 Measure and improve"]
+    C --> D{"🔍 Test"}
+    D -->|Fix| C
+    D -->|OK| E(["🚀 Launch"])
+    E --> F["📈 Improve"]
     F -.-> A
 
     classDef start fill:#0F766E,stroke:#00E5C3,color:#ffffff;
